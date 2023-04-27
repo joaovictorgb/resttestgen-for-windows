@@ -23,8 +23,8 @@ A framework for automated black-box testing of RESTful APIs.
 ---
 
 ## Requirements
-- Java 11
-- Ubuntu, or other Linux distributions (RestTestGen was not tested on Windows)
+- Java 11 , intelijj and Grandle in compatible version for Java
+- Ubuntu, or other Linux distributions (RestTestGen was tested in windows 100% compatible)
 
 ## Configuration
 RestTestGen comes with a built-in default configuration suitable for most REST APIs, defined in the `io.resttestgen.core.Configuration` class. The default configuration can be overridden by means of the `rtg_config.json` file. The file must be located in the current working directory.
